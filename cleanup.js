@@ -15,16 +15,12 @@ function cleanup(dir) {
             if (typeof files[i] === 'string' || files[i] instanceof String) {
                 if (files[i] !== 'del') {
 
-                    // console.log('File: ' + files[i].yellow);
-
                     // build path to this file
                     if (dir === '') {
                         dir = dir + '/' + files[i];
                     } else {
                         dir = dir + '/' + files[i];
                     }
-
-                    // console.log('Path: ' + dir.yellow);
 
                     if (!fileType(dir)) {
                         console.log('----------------------------------------------------------------------------');
