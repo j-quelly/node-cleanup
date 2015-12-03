@@ -10,3 +10,5 @@ Helps Windows developrs remove node_modules folder
 
 ## Alternative Usage
 ```node cleanup.js path/to/directory```
+
+Feel free to contribute!
