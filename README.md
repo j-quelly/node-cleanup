@@ -2,7 +2,7 @@
 Helps Windows developrs remove node_modules folder
 
 ## Getting Started
-1. Place ```cleanup.js``` in your root directory.
+1. Place ```cleanup.js``` in your project root.
 2. ```npm install --save-dev colors del```
 
 ## Default Usage
