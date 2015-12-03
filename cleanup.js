@@ -7,9 +7,7 @@ var del = require('del');
 function cleanup(dir) {
     fs.readdir(dir, function doneReading(err, files) {
         if (err) {
-            return console.log(err);
-        } else if (!files) {
-            return console.log('reached the end?');
+            return err;
         }
 
         // loop thru files array
@@ -17,8 +15,7 @@ function cleanup(dir) {
             if (typeof files[i] === 'string' || files[i] instanceof String) {
                 if (files[i] !== 'del') {
 
-                    // friendly log message
-                    console.log('Directory: ' + files[i].yellow);
+                    // console.log('File: ' + files[i].yellow);
 
                     // build path to this file
                     if (dir === '') {
@@ -27,14 +24,10 @@ function cleanup(dir) {
                         dir = dir + '/' + files[i];
                     }
 
-                    console.log(dir.yellow);
+                    // console.log('Path: ' + dir.yellow);
 
-                    /* 
-                     * check if file is a directory
-                     */
                     if (!fileType(dir)) {
-                        // traverse with new path                        
-                        console.log('--------------------------------------');
+                        console.log('----------------------------------------------------------------------------');
                         cleanup(dir);
                     }
                 }
@@ -46,12 +39,14 @@ function cleanup(dir) {
 cleanup(dir);
 
 function fileType(fileName) {
-    console.log('File: ' + fileName.red);
+    console.log('Deleting: ' + fileName.red);
     if (fileName) {
         fs.stat(fileName, function(err, stat) {
             if (stat && stat.isFile()) {
                 if (del(dir)) {
-                    var success = 'Successfully deleted a file: ';
+                    var success = '| ---------------------------- CLEANUP COMPLETE ---------------------------- |';
+                    console.log(success.green);
+                    console.log(success.green);
                     console.log(success.green);
                 }
             } else if (stat && stat.isDirectory()) {
