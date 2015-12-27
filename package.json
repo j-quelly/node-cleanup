@@ -1,27 +1,27 @@
 {
-    "name": "node-cleanup",
-    "version": "0.0.2",
-    "description": "Helps Windows developrs remove node_modules folder",
-    "main": "cleanup.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "node",
-        "windows"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/studio174/node-cleanup.git"
-    },
-    "author": "Jamie Kelly",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/studio174/node-cleanup/issues"
-    },
-    "homepage": "https://github.com/studio174/node-cleanup#readme",
-    "devDependencies": {
-        "colors": "^1.1.2",
-        "del": "^2.1.0"
-    }
+  "name": "node-cleanup",
+  "version": "0.1.3",
+  "description": "Helps Windows developrs remove node_modules folder",
+  "main": "cleanup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "windows"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studio174/node-cleanup.git"
+  },
+  "author": "Jamie Kelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/studio174/node-cleanup/issues"
+  },
+  "homepage": "https://github.com/studio174/node-cleanup#readme",
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "del": "^2.2.0"
+  }
 }
