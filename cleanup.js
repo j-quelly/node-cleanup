@@ -17,7 +17,7 @@ var fs = require('fs'),
                     dir = dir + '/' + files[i];
 
                     if (!fileType(dir)) {
-                        cleanup(dir);
+                        return cleanup(dir);
                     }
                 }
             }
