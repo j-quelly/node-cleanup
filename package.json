@@ -1,6 +1,6 @@
 {
   "name": "node-cleanup",
-  "version": "0.1.3",
+  "version": "0.2.3",
   "description": "Helps Windows developrs remove node_modules folder",
   "main": "cleanup.js",
   "scripts": {
@@ -8,7 +8,8 @@
   },
   "keywords": [
     "node",
-    "windows"
+    "windows", 
+    "node_modules"
   ],
   "repository": {
     "type": "git",
