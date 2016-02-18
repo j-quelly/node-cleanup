@@ -32,7 +32,7 @@ function fileType(fileName) {
         fs.stat(fileName, function(err, stat) {
             if (stat && stat.isFile()) {
                 if (del(dir)) {
-                    var success = '| ---------------------------- CLEANUP COMPLETE ---------------------------- |';
+                    var success = '| ---------------------------- FINISHING UP... ---------------------------- |';
                     console.log(success.green);
                 }
             } else if (stat && stat.isDirectory()) {
