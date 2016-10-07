@@ -1,7 +1,7 @@
 # node-cleanup
 Helps Windows web developers remove node_modules folder.
 
-### Current Version: 1.5.14
+### Current Version: 1.5.15
 
 ## Getting Started
 1. $ npm install -g remove-node-modules
@@ -16,7 +16,7 @@ $ remove-node-modules /path/to/directory
 Feel free to contribute!
 
 ## Changelog
-- v1.5.14 (10/7/2016)
+- v1.5.15 (10/7/2016)
 	- published to npmjs
 - v0.2.3 (2/17/2016)
 	- updated friendly message
