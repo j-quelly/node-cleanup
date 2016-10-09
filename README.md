@@ -1,7 +1,7 @@
 # remove-node-modules
 Helps Windows web developers remove node_modules folder.
 
-### Current Version: 1.5.16
+### Current Version: 1.5.17
 
 ## Getting Started
 1. $ npm install -g remove-node-modules
@@ -17,7 +17,7 @@ $ remove-node-modules /path/to/directory
 Feel free to contribute!
 
 ## Changelog
-- v1.5.16 (10/7/2016)
+- v1.5.17 (10/7/2016)
 	- published to npmjs
 - v0.2.3 (2/17/2016)
 	- updated friendly message
