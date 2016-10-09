@@ -7,7 +7,8 @@ Helps Windows web developers remove node_modules folder.
 1. $ npm install -g remove-node-modules
 
 ## Default Usage
-$ remove-node-modules
+1. Navigate to project root
+2. $ remove-node-modules
 
 ## Alternative Usage
 $ remove-node-modules /path/to/directory
