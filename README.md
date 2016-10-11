@@ -1,13 +1,13 @@
 # remove-node-modules
 Helps Windows web developers remove node_modules folder.
 
-### Current Version: 1.6.0
+### Current Version: 1.6.1
 
 ## Getting Started With Yarn
-1. `$ yarn global add remove-node-modules` 
+`$ yarn global add remove-node-modules` 
 
 ## Getting Started With NPM
-1. `$ npm install -g remove-node-modules` 
+`$ npm install -g remove-node-modules` 
 
 ## Default Usage
 1. Navigate to project root
@@ -20,7 +20,7 @@ Helps Windows web developers remove node_modules folder.
 Feel free to contribute!
 
 ## Changelog
-- v1.6.0 (10/11/2016)
+- v1.6.1 (10/11/2016)
 	- available on yarn
 - v1.5.17 (10/7/2016)
 	- published to npmjs
