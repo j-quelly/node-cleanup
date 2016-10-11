@@ -1,6 +1,6 @@
 {
   "name": "remove-node-modules",
-  "version": "1.5.17",
+  "version": "1.5.18",
   "description": "Helps Windows developers remove and delete node_modules folder",
   "bin": {
     "remove-node-modules": "bin/remove-node-modules.js"
@@ -18,8 +18,8 @@
     "delete node_modules folder"
   ],
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/studio174/node-cleanup.git"
+    "url": "git+https://github.com/studio174/node-cleanup.git",
+    "type": "git"
   },
   "author": "Jamie Kelly <jamie@kellyjg.com> (http://www.kellyjg.com) @de__bug",
   "license": "MIT",
