@@ -1,6 +1,6 @@
 {
   "name": "remove-node-modules",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "description": "Helps Windows developers remove and delete node_modules folder",
   "bin": {
     "remove-node-modules": "bin/remove-node-modules.js"
@@ -15,7 +15,9 @@
     "windows",
     "node_modules",
     "remove node_modules folder",
-    "delete node_modules folder"
+    "delete node_modules folder",
+    "remove node modules folder",
+    "delete node modules folder"
   ],
   "repository": {
     "url": "git+https://github.com/j-quelly/node-cleanup.git",
