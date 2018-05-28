@@ -18,15 +18,15 @@
     "delete node_modules folder"
   ],
   "repository": {
-    "url": "git+https://github.com/studio174/node-cleanup.git",
+    "url": "git+https://github.com/j-quelly/node-cleanup.git",
     "type": "git"
   },
-  "author": "Jamie Kelly <jamie@kellyjg.com> (http://www.kellyjg.com) @de__bug",
+  "author": "Jamie Kelly <jamie@kellyjg.com> (http://www.kellyjg.com) @j_quell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/studio174/node-cleanup/issues"
+    "url": "https://github.com/j-quelly/node-cleanup/issues"
   },
-  "homepage": "https://github.com/studio174/node-cleanup#readme",
+  "homepage": "https://github.com/j-quelly/node-cleanup#readme",
   "dependencies": {
     "colors": "^1.1.2",
     "del": "^2.2.2"
