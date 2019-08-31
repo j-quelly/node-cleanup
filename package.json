@@ -1,7 +1,7 @@
 {
   "name": "remove-node-modules",
-  "version": "1.7.4",
-  "description": "Helps Windows developers remove and delete node_modules folder",
+  "version": "1.7.5",
+  "description": "Helps Windows developers remove node modules folder",
   "bin": {
     "remove-node-modules": "bin/remove-node-modules.js"
   },
