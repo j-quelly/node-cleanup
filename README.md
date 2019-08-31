@@ -6,7 +6,7 @@ If you're unable to remove the node modules folder on Windows 7 from explorer an
 
 > The source file name(s) are larger than is supported by the file system. > Try moving to a location which has a shorter path name, or try renaming > to shorter name(s) before attempting this operation
 
-### Current Version: 1.7.5
+### Current Version: 1.7.6
 
 ## Getting Started With Yarn
 
