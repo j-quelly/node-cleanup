@@ -2,7 +2,7 @@
 
 Helps Windows developers remove node_modules folder.
 
-If you're unable to delete the node_modules folder on Windows 7 from explorer and receive an error similar to this:
+If you're unable to remove the node modules folder on Windows 7 from explorer and receive an error similar to this:
 
 > The source file name(s) are larger than is supported by the file system. > Try moving to a location which has a shorter path name, or try renaming > to shorter name(s) before attempting this operation
 
