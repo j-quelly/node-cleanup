@@ -18,12 +18,12 @@ If you're unable to remove the node modules folder on Windows 7 from explorer an
 
 ## Default Usage
 
-1. Navigate to project root
+1. Navigate to where your node_modules folder resides
 2. `$ remove-node-modules`
 
 ## Alternative Usage
 
-`$ remove-node-modules /path/to/directory`
+`$ remove-node-modules /path/to/node_modules`
 
 ## Contributing
 
@@ -31,6 +31,7 @@ Feel free to contribute!
 
 ## Changelog
 
+- v1.7.7 (08/31/2019) - improves deletion of node modules folder
 - v1.7.2 (08/31/2019) - patches security vulnerability
 - v1.7.2 (11/5/2016) - updates documentation
 - v1.7.1 (10/26/2016) - fixes bug in index.js
